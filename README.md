@@ -20,7 +20,7 @@ Go on Remix: https://remix.ethereum.org/ and make these next changes in Gatekeep
 And at SafeMath.sol:
 >- <value> 1. Pragma version from **0.8.0** to **0.6.12** 
 
-This level asks us pass all the 3 gates to become an entrant. Let's start with the first requirement then advance to the last one.
+This level asks us to pass all the 3 gates to become an entrant. Let's start with the first requirement then advance to the last one.
 
 For the first gate we are going to use the same trick from the [04-Telephone](https://github.com/Spyro7883/04-Telephone) level.
 
