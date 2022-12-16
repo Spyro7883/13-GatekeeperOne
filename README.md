@@ -50,7 +50,7 @@ Looks like the remaining gas is 257. The total amount of gas we are going to use
 
 The function for gate two should look something like this:
 
-<img src="./images/image5.png>
+<img src="./images/image5.png">
 
 The third gate is the most troblesome in this level. For the first requirement we are going to remove some digits:
 >- <value> Let's say our example will be gate_three_key == 0x1234567890123456789012345678901234567890
@@ -67,7 +67,7 @@ In the second requirement is a little different since the mentioned args have to
 >- <value> 34 56 78 90 != 56 78 90 12 34 56 78 90 <=> 56 78 90 12 34 56 78 90 != 00 00 00 00 34 56 78 90 & ff ff ff ff 00 00 ff ff
 
 The last requirement is the same as the first one:
->- <value> That should mean that 34 56 78 90 == 78 90 <=> 78 90 = 34 56 78 90 & 00 00 ff ff
+>- <value> Which means that 34 56 78 90 == 78 90 <=> 78 90 = 34 56 78 90 & 00 00 ff ff
 
 Let's create the GatekeeperOneAttacker contract:
 
